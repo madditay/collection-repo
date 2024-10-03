@@ -7,7 +7,8 @@ unless Gem.win_platform?
   gem 'image_optim_pack'
 end
 gem 'csv'
-gem 'jekyll'
+# gem 'jekyll'
+gem "github-pages", "~> 232", group: :jekyll_plugins
 gem 'mini_magick'
 gem 'rake'
 
